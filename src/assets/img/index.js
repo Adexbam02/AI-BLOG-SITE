@@ -1,0 +1,11 @@
+export { default as Arrow } from "./arrow.svg";
+export { default as Logo } from "./Logo.svg";
+export { default as Logo1 } from "./Logo1.svg";
+export { default as Logo2 } from "./Logo2.svg";
+export { default as People } from "./ppl.png";
+export { default as Latest } from "./Latest.svg";
+export { default as Expert } from "./Expert.svg";
+export { default as Button } from "./Button.png";
+export { default as featureTopImg } from "./featureTop.svg";
+export { default as featureBottomImg } from "./featureBottom.svg";
+export { default as Btnn } from "./btnn.svg";
