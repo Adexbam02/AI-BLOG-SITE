@@ -9,11 +9,8 @@
   scroll-behavior: smooth;
 }
 
-
 body {
-  /* background: #000000; */
   background: var(--dark1);
-
 }
 
 h1 {

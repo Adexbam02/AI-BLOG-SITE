@@ -1,5 +1,6 @@
-import { category, post, action } from "../../data";
+import { category, post } from "../../data";
 import "./category.css";
+import { Like } from "../../assets/img/index";
 // import { Link, NavLink } from "react-router-dom";
 import PropBtn from "../props/PropBtn";
 
@@ -18,10 +19,11 @@ const Category = () => {
             );
           })}
         </div>
+        <div className="lineCat"></div>
         <div className="categoryContent">
           <div>
             {post.map(
-              ({ id, img, name, category, date, title, desc, path }) => {
+              ({ id, img, name, category, date, title, desc }) => {
                 return (
                   <div key={id} className="cat">
                     <div className="left">
@@ -34,24 +36,27 @@ const Category = () => {
                     </div>
 
                     <div className="right">
-                      <span className="titledate">
+                      <div className="titledate">
                         <h5 className="date">{date}</h5>
                         <span>
                           <h4 className="title">{title}</h4>
                           <p className="desc">{desc}</p>
                         </span>
-                        {/* <span>
-                            {
-                                action.map(({id, like, likeImg, commImg, comment, share, shareImg}) => {
-                                    <span>
-                                        <img src={likeImg} alt="like" />
-                                        <small>{like}</small>
-                                    </span>
-                                    
-                                })
-                            }
-                        </span> */}
-                      </span>
+                        <span className="action">
+                          <div className="like">
+                            <img src={Like} alt="like" />
+                            <small>0</small>
+                          </div>
+                          <div className="like">
+                            <img src={Like} alt="like" />
+                            <small>0</small>
+                          </div>
+                          <div className="like">
+                            <img src={Like} alt="like" />
+                            <small>0</small>
+                          </div>
+                        </span>
+                      </div>
 
                       <PropBtn btnTile="View Blog" />
                     </div>

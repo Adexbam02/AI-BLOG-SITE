@@ -2,7 +2,7 @@ import "./prop1.css"
 // eslint-disable-next-line react/prop-types
 const Prop1 = ({ insight, title, btnn }) => {
   return (
-    <div className="futureTech">
+    <div className="subTitle">
       <div className="genP">
         <div>
           <h4>{insight}</h4>

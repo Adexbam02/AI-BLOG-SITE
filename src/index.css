@@ -79,7 +79,8 @@
 .btnn {
   border-radius: 8px;
   border: 1px solid var(--dark3);
-  background: var(--dark1);
+  background: var(--dark2);
+
   font-family: var(--fonti);
   color: var(--grey2);
 
@@ -93,6 +94,17 @@
   background: var(--yellow1);
   transition: var(--transition);
   color: var(--dark1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+p {
+  /* line-height: 150%; */
 }
 
 .btnn:hover .arr {

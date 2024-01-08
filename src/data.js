@@ -9,6 +9,8 @@ import User3 from "./assets/img/user3.png";
 import Like from "./assets/img/like.svg";
 import Comment from "./assets/img/comment.svg";
 import Share from "./assets/img/share.svg";
+// import Whitepaper from "./assets/img/whitepaper.svg";
+// import Ebook from "./assets/img/ebook.svg";
 
 export const navpaths = [
   {
@@ -148,7 +150,7 @@ export const post = [
     category: "Quantum Computing",
     date: "October 15, 2023",
     title: "The Quantum Leap in Computing",
-    desc: "Esgklkhfncgklnhkgcnlknklncglnnoxplore the revolution in quantum computing, its applications, and its potential impact on various industries.",
+    desc: "Explore the revolution in quantum computing, its applications, and its potential impact on various industries.",
     path: "/",
   },
   {
@@ -179,10 +181,22 @@ export const action = [
   {
     id: 1,
     likeImg: Like,
-    like: 0,
+    like: "0",
     commImg: Comment,
     comment: 0,
     shareImg: Share,
     share: 0,
   },
 ];
+
+// export const topics = [
+//   {
+//     id: 1,
+//     topicIcon: Ebook,
+//     like: "0",
+//     commImg: Comment,
+//     comment: 0,
+//     shareImg: Share,
+//     share: 0,
+//   },
+// ];

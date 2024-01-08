@@ -5,3 +5,5 @@ export { default as FutureTech } from "./futureTech/FutureTech.jsx";
 export { default as Feautres } from "./features/Features.jsx";
 export { default as Explore } from "./explore/Explore.jsx";
 export { default as Category } from "./category/Category.jsx";
+export { default as Resources } from "./resources/Resources.jsx";
+export { default as ResourceContent } from "./resourceContent/ResourceContent.jsx";

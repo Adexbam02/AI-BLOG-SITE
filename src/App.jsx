@@ -1,8 +1,5 @@
-import {Header, StickyHead, FutureTech, Navbar, Feautres, Explore, Category} from './components/index'
-// import TopNav from './components/com/TopNav'
-// import Nav from './components/nav/Nav'
+import {Header, StickyHead, FutureTech, Navbar, Feautres, Explore, Category, Resources, ResourceContent} from './components/index'
 
-// import Navbar from './components/navbar/Navbar'
 import './App.css'
 
 function App() {
@@ -16,6 +13,8 @@ function App() {
     <Feautres />
     <Explore />
     <Category />
+    <Resources />
+    <ResourceContent />
     </>
   )
 }
