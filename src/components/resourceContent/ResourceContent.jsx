@@ -1,5 +1,5 @@
 import PropBtn from "../props/PropBtn";
-
+import PropDownload from "../props/propDownload";
 import "./resourceContent.css";
 import { People2, VR, Ebook } from "../../assets/img/index";
 
@@ -16,13 +16,7 @@ const ResourceContent = () => {
               future technology topics.
             </p>
             <PropBtn btnTile="Download Ebooks Now" />
-            <span className="downL">
-              <span>
-                <small>Downloaded By</small>
-                <h4>10k + Users</h4>
-              </span>
-              <img src={People2} alt="" />
-            </span>
+            <PropDownload people={People2}/>
           </div>
 
           <div className="topRight topic">
@@ -60,7 +54,11 @@ const ResourceContent = () => {
           </div>
         </div>
 
-        <div className="bottom"></div>
+        <div className="lineRes"></div>
+
+        <div className="bottom">
+          
+        </div>
       </div>
     </div>
   );
