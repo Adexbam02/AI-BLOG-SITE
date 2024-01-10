@@ -9,6 +9,7 @@ import User3 from "./assets/img/user3.png";
 import Like from "./assets/img/like.svg";
 import Comment from "./assets/img/comment.svg";
 import Share from "./assets/img/share.svg";
+import { Ebook, VR } from "./assets/img";
 // import Whitepaper from "./assets/img/whitepaper.svg";
 // import Ebook from "./assets/img/ebook.svg";
 
@@ -189,14 +190,20 @@ export const action = [
   },
 ];
 
-// export const topics = [
-//   {
-//     id: 1,
-//     topicIcon: Ebook,
-//     like: "0",
-//     commImg: Comment,
-//     comment: 0,
-//     shareImg: Share,
-//     share: 0,
-//   },
-// ];
+export const topics = [
+  {
+    id: 1,
+    topicIcon: Ebook,
+    topicTitle: "Ebooks",
+    topicP: "Explore our collection of ebooks covering a wide spectrum of future technology topics.",
+    textTitleb: "Variety of Topics",
+    textTitlep: "Topics include AI in education (25%), renewable energy (20%), healthcare (15%), space exploration (25%), and biotechnology (15%).",
+    Img: VR,
+    totalSmall: "Total Ebooks",
+    totalTopic: "Over 100 ebooks",
+    downSmall: "Download Formats",
+    downTopic: "PDF format for access.",
+    autSmall: "Average Author Expertise",
+    autToppic: "Ebooks are authored by renowned experts with an average of 15 years of experience"
+  },
+];

@@ -1,3 +1,5 @@
+import "./propDownload.css"
+
 // eslint-disable-next-line react/prop-types
 const PropDownload = ({ people }) => {
   return (
