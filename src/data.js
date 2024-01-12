@@ -10,7 +10,13 @@ import Like from "./assets/img/like.svg";
 import Comment from "./assets/img/comment.svg";
 import Share from "./assets/img/share.svg";
 import { Ebook, VR } from "./assets/img";
-// import Whitepaper from "./assets/img/whitepaper.svg";
+import ProfileImg1 from "./assets/img/ProfileImg1.svg";
+import ProfileImg2 from "./assets/img/ProfileImg2.svg";
+import ProfileImg3 from "./assets/img/ProfileImg3.svg";
+import ProfileImg4 from "./assets/img/ProfileImg4.svg";
+import ProfileImg5 from "./assets/img/ProfileImg5.svg";
+import ProfileImg6 from "./assets/img/ProfileImg6.svg";
+import Stars from "./assets/img/stars.png";
 // import Ebook from "./assets/img/ebook.svg";
 
 export const navpaths = [
@@ -207,3 +213,55 @@ export const topics = [
     autToppic: "Ebooks are authored by renowned experts with an average of 15 years of experience"
   },
 ];
+
+
+export const testimonial = [
+  {
+    id: 1,
+    profileImg: ProfileImg1,
+    profileName: "Sarah Thompson",
+    profileLocation: "San Francisco, USA",
+    rating: Stars,
+    testimonial: "The ebooks on AI in education have been a game-changer for my research. They provide in-depth insights and case studies that are invaluable for staying updated."
+  },
+  {
+    id: 2,
+    profileImg: ProfileImg2,
+    profileName: "Raj Patel",
+    profileLocation: "Mumbai, India",
+    rating: Stars,
+    testimonial: "The whitepapers on renewable energy strategies have greatly influenced my work. They offer detailed data and analysis."
+  },
+  {
+    id: 3,
+    profileImg: ProfileImg3,
+    profileName: "Emily Adams",
+    profileLocation: "London, UK",
+    rating: Stars,
+    testimonial: "The AI in healthcare reports have been an essential resource for our hospital. They highlight the latest innovations and best practices, improving patient care."
+  },
+  {
+    id: 4,
+    profileImg: ProfileImg4,
+    profileName: "Alan Jackson",
+    profileLocation: "Houston, USA",
+    rating: Stars,
+    testimonial: "The reports on space mining prospects have fueled my passion for space exploration. They provide a comprehensive view."
+  },
+  {
+    id: 5,
+    profileImg: ProfileImg5,
+    profileName: "Jessica Miller",
+    profileLocation: "Boston, USA",
+    rating: Stars,
+    testimonial: "The research papers on genomic breakthroughs have been a goldmine of information. They've shaped the direction of my research in genomics."
+  },
+  {
+    id: 6,
+    profileImg: ProfileImg6,
+    profileName: "Diego Lopez",
+    profileLocation: "Barcelona, Spain",
+    rating: Stars,
+    testimonial: "The ebooks on renewable energy strategies have given me the insights I needed to pivot our startup toward sustainability."
+  },
+]

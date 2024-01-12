@@ -1,4 +1,4 @@
-import {Header, StickyHead, FutureTech, Navbar, Feautres, Explore, Category, Resources, ResourceContent} from './components/index'
+import {Header, StickyHead, FutureTech, Navbar, Feautres, Explore, Category, Resources, ResourceContent, RealReader, Testimonial} from './components/index'
 
 import './App.css'
 
@@ -15,6 +15,8 @@ function App() {
     <Category />
     <Resources />
     <ResourceContent />
+    <RealReader />
+    <Testimonial />
     </>
   )
 }

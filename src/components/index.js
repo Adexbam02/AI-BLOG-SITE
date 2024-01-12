@@ -7,3 +7,5 @@ export { default as Explore } from "./explore/Explore.jsx";
 export { default as Category } from "./category/Category.jsx";
 export { default as Resources } from "./resources/Resources.jsx";
 export { default as ResourceContent } from "./resourceContent/ResourceContent.jsx";
+export { default as RealReader } from "./realReader/RealReader.jsx";
+export { default as Testimonial } from "./testimonial/Testimonial.jsx";

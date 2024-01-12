@@ -1,7 +1,7 @@
 import PropBtn from "../props/PropBtn";
 import PropDownload from "../props/propDownload";
 import "./resourceContent.css";
-import { topics } from "../../data";
+// import { topics } from "../../data";
 import { People2, VR, Ebook, Whitepaper, Digital } from "../../assets/img/index";
 
 const ResourceContent = () => {
